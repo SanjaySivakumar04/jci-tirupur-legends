@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - JCI Zone XVIII</title>
+
+    <!-- ---------------------------------------------------------------- -->
+    <link rel="icon" href="logo.webp" type="image/x-icon">
+    <link rel="icon" href="logo.webp" type="image/png">
+    <link rel="apple-touch-icon" href="logo.webp">
+    <link rel="icon" sizes="192x192" href="logo.webp">
+    <!-- ---------------------------------------------------------------- -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+
+        .jci .gallery_banner {
+            background: url('assets/images/gallery_bg.webp') no-repeat center/cover #0043aecc;
+        }
+
+       .gallery_banner h1 {
+            text-underline-offset: 14px;
+        }
+
+    </style>
+</head>
+
+<body class="min-h-screen">
+    <!-- Navigation -->
+    <header class="fixed top-0 left-0 w-full z-50 flex w-full justify-center align-center ">
+        <nav class="container text-white bg-black relative h-20 flex justify-between items-center 
+            md:w-4/5 w-full rounded-0 sm:rounded-b-xl p-5">
+            <div>
+                <a href="index.html" class="text-xl font-semibold">
+                    <img src="logo.webp" alt="JCI"></a>
+            </div>
+            <div class="hidden absolute top-[3.5rem] left-0 w-full py-10 md:block md:static md:py-0 
+                md:border-none md:w-auto md:ml-auto bg-black md:top-0" id="nav-menu">
+                <ul class="flex flex-col text-center gap-10 md:flex-row">
+                    <li><a href="#" class="hover:text-blue-400 nav_link">Leaders</a></li>
+                    <li><a href="#" class="hover:text-blue-400 nav_link">Members</a></li>
+                    <li><a href="#" class="hover:text-blue-400 nav_link">Category</a></li>
+                    <li><a href="gallery.html" class="text-blue-400 nav_link">Gallery</a></li>
+                </ul>
+                <div class="absolute top-[2.5rem] right-4 text-2x1 cursor-pointer md:hidden" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+            <div class="md:hidden" id="hamburger">
+                <i class="ri-menu-2-line cursor-pointer text-xl"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="jci">
+        <section class="gallery_banner py-20 md:py-24 text-white justify-center">
+            <div class="md:mt-8 mt-10">
+                <h1 class="text-center text-3xl md:text-4xl underline">Gallery</h1>
+            </div>
+        </section>
+  
+        <section class="events">
+            <div class="events_img container mx-auto py-10 px-8 md:px-4 md:w-4/5">
+                <div class="grid cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+
+                    <a href="gallery/event1.html" class="transition-all duration-200 ease-linear transform hover:scale-105 active:scale-90">
+                        <img src="assets/gallery/img1.png" alt="jci" class="w-full h-auto object-cover hover:shadow-lg hover:shadow-black/20 rounded-3xl">
+                         <p class="text-center text-[20px] xl:text-[22px] font-bold py-2">Event 1</p>
+                    </a>
+
+                    <a href="gallery/event2.html" class="transition-all duration-200 ease-linear transform hover:scale-105 active:scale-90">
+                        <img src="assets/gallery/img2.png" alt="jci" class="w-full h-auto object-cover hover:shadow-lg hover:shadow-black/20 rounded-3xl">
+                         <p class="text-center text-[20px] xl:text-[22px] font-bold py-2">Event 2</p>
+                    </a>
+
+                    <a href="#" class="transition-all duration-200 ease-linear transform hover:scale-105 active:scale-90">
+                        <img src="assets/gallery/img3.png" alt="jci" class="w-full h-auto object-cover hover:shadow-lg hover:shadow-black/20 rounded-3xl">
+                         <p class="text-center text-[20px] xl:text-[22px] font-bold py-2">Business meeting</p>
+                    </a>
+
+                    <a href="#" class="transition-all duration-200 ease-linear transform hover:scale-105 active:scale-90">
+                        <img src="assets/gallery/img4.png" alt="jci" class="w-full h-auto object-cover hover:shadow-lg hover:shadow-black/20 rounded-3xl">
+                         <p class="text-center text-[20px] xl:text-[22px] font-bold py-2">Business meeting</p>
+                    </a>
+
+                    <a href="#" class="transition-all duration-200 ease-linear transform hover:scale-105 active:scale-90">
+                        <img src="assets/gallery/img5.png" alt="jci" class="w-full h-auto object-cover hover:shadow-lg hover:shadow-black/20 rounded-3xl">
+                         <p class="text-center text-[20px] xl:text-[22px] font-bold py-2">Business meeting</p>
+                    </a>
+
+                    <a href="#" class="transition-all duration-200 ease-linear transform hover:scale-105 active:scale-90">
+                        <img src="assets/gallery/img6.png" alt="jci" class="w-full h-auto object-cover hover:shadow-lg hover:shadow-black/20 rounded-3xl">
+                         <p class="text-center text-[20px] xl:text-[22px] font-bold py-2">Business meeting</p>
+                    </a>
+
+                    <a href="#" class="transition-all duration-200 ease-linear transform hover:scale-105 active:scale-90">
+                        <img src="assets/gallery/img7.png" alt="jci" class="w-full h-auto object-cover hover:shadow-lg hover:shadow-black/20 rounded-3xl">
+                         <p class="text-center text-[20px] xl:text-[22px] font-bold py-2">Business meeting</p>
+                    </a>
+
+                    <a href="#" class="transition-all duration-200 ease-linear transform hover:scale-105 active:scale-90">
+                        <img src="assets/gallery/img8.png" alt="jci" class="w-full h-auto object-cover hover:shadow-lg hover:shadow-black/20 rounded-3xl">
+                         <p class="text-center text-[20px] xl:text-[22px] font-bold py-2">Business meeting</p>
+                    </a>
+
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+    <footer class="bg-black text-white py-4">
+        <div class="container mx-auto px-4 text-center">
+            <p>© Copyright 2021 JCI TIRUPUR LEGENDS. All Rights Reserved</p>
+            <p class="text-sm mt-2">Designed by v0websolutions</p>
+        </div>
+    </footer>
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const navMenu = document.getElementById('nav-menu');
+        const closeIcon = document.getElementById('nav-close');
+        /*const navLink = document.getElementById('nav_link');
+
+        navLink.foreach(link =>
+            link.addEventListener("click", () => {
+                navMenu.classList.add('hidden');
+            })
+        );*/
+
+        closeIcon.addEventListener("click", () => {
+            navMenu.classList.add('hidden');
+        });
+
+        hamburger.addEventListener("click", () => {
+            navMenu.classList.remove('hidden');
+        });
+    </script>
+</body>
+
+</html>

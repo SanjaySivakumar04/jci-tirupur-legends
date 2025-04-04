@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JCI Zone XVIII</title>
+
+    <!-- ---------------------------------------------------------------- -->
+    <link rel="icon" href="logo.webp" type="image/x-icon">
+    <link rel="icon" href="logo.webp" type="image/png">
+    <link rel="apple-touch-icon" href="logo.webp">
+    <link rel="icon" sizes="192x192" href="logo.webp">
+    <!-- ---------------------------------------------------------------- -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        .jci .about_jci button {
+            transition: all .2s linear;
+        }
+
+        .jci .gradient-shadow {
+            background-color: #1277E2;
+            transition: all .2s linear;
+        }
+
+        .jci .gradient-shadow:hover {
+            transform: scale(1.01);
+        }
+
+        .jci .shadow {
+            transition: all .2s linear;
+        }
+
+        .jci .shadow:hover {
+            box-shadow: 0px 64px 151px 0px #0000003d;
+        }
+
+        .jci .hero_section {
+            background-image: url(assets/images/bg_img.webp);
+            background-repeat: no-repeat;
+            background-size: 85% auto;
+            background-position: 50% 20%;
+        }
+
+        .jci .zone_banner {
+            background: linear-gradient(#1277E2 75%, #ffffff 25%);
+        }
+
+        @media screen and (max-width:1000px) {
+            .jci .hero_section {
+                background-image: none;
+
+            }
+        }
+    </style>
+</head>
+
+<body class="min-h-screen">
+    <!-- Navigation -->
+    <header class="fixed top-0 left-0 w-full z-50 flex w-full justify-center align-center">
+        <nav class="container text-white bg-black relative h-20 flex justify-between items-center 
+            md:w-4/5 w-full rounded-0 sm:rounded-b-xl p-5">
+            <div>
+                <a href="index.html" class="text-xl font-semibold">
+                    <img src="logo.webp" alt="JCI"></a>
+            </div>
+            <div class="hidden absolute top-[3.5rem] left-0 w-full py-10 md:block md:static md:py-0 
+                md:border-none md:w-auto md:ml-auto bg-black md:top-0" id="nav-menu">
+                <ul class="flex flex-col text-center gap-10 md:flex-row">
+                    <li><a href="#" class="hover:text-blue-400 nav_link">Leaders</a></li>
+                    <li><a href="#" class="hover:text-blue-400 nav_link">Members</a></li>
+                    <li><a href="#" class="hover:text-blue-400 nav_link">Category</a></li>
+                    <li><a href="gallery.html" class="hover:text-blue-400 nav_link">Gallery</a></li>
+                </ul>
+                <div class="absolute top-[2.5rem] right-4 text-2x1 cursor-pointer md:hidden" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+            <div class="md:hidden" id="hamburger">
+                <i class="ri-menu-2-line cursor-pointer text-xl"></i>
+            </div>
+        </nav>
+    </header>
+    <main class="jci">
+        <section class="zone_banner py-20 text-white justify-center mb-8">
+            <div class="mt-8">
+                <div class="flex flex-col mx-auto px-lg-6 justify-center hero_section">
+                    <div class=" grid md:grid-cols-1 gap-1 justify-center max-w-3xl mx-auto text-center lg:space-y-10 space-y-8 lg:p-20 p-6 md:rounded-xl backdrop-blur-md"
+                        style="background: #efeeee28;
+               border-image-source: linear-gradient(135deg, rgb(255, 255, 255) 50%, rgb(255, 255, 255) 50%);">
+                        <h1 class="text-lg md:text-3xl lg:text-5xl xl:text-4xl font-bold ">
+                            Welcome to <span class="bg-white text-blue-500 xl:px-1 px-1">JCI
+                                TIRUPUR LEGENDS</span>
+                        </h1>
+                        <p class="text-sm text-center">
+                            Welcome to JCI Zone XVII, a distinguished
+                            community
+                            within JCI India since 1997. Our heritage is
+                            marked
+                            by leadership and innovation, featuring
+                            prominent
+                            figures including one World President, six Past
+                            National Presidents, three National Vice
+                            Presidents,
+                            and more.
+                        </p>
+                        <p class="text-sm text-center">
+                            We've proudly hosted landmark national events
+                            like
+                            NALENDA, JASMINE, and ABLE, setting standards in
+                            organizational excellence. Our commitment
+                            extends
+                            through our roles in global and national
+                            leadership,
+                            including a World JCI Treasurer and three JCI
+                            Vice
+                            Presidents. Join us as we continue to lead,
+                            inspire,
+                            and make impactful contributions to our society.
+                        </p>
+                    </div>
+                    <div class="relative mx-auto border-8 rounded-lg top-16">
+                        <img src="assets/images/group-photo.webp" alt="Zone XVIII Group Photo"
+                            class="mx-auto shadow-xl max-w-4xl w-full">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-16 bg-gray-50">
+            <div class="container mx-auto px-4">
+                <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                    <div class="gradient-shadow rounded-3xl p-8 text-white text-center shadow">
+                        <div class="flex justify-center mb-4">
+                            <img class="img flex-wrap w-28" src="assets/images/hugeicons_vision.webp" alt="jci" />
+                        </div>
+                        <h2 class="text-sm md:text-2xl font-bold mb-4">Our
+                            Mission</h2>
+                        <p>To provide leadership development opportunities
+                            that
+                            empower young people to create positive
+                            change.</p>
+                    </div>
+                    <div class="gradient-shadow rounded-3xl p-8 text-white text-center shadow">
+                        <div class="flex justify-center mb-4">
+                            <img class="img flex-wrap w-28" src="assets/images/noun-mission.webp" alt="jci" />
+                        </div>
+                        <h2 class="text-sm md:text-2xl font-bold mb-4">Our
+                            Vision</h2>
+                        <p>To be the foremost global network of young
+                            leaders.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-[#002B5B] text-white py-16">
+            <div class="container mx-auto px-4">
+                <div class="grid md:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
+                    <div class="relative flex item-center justify-center">
+                        <img src="assets/images/footer1.webp" class="img w-80" />
+                    </div>
+                    <div class="about_jci">
+                        <h2 class="text-3xl">What is JCI?</h2>
+                        <p class="text-md my-3">
+                            Junior Chamber International (JCI) is a
+                            worldwide
+                            federation of young leaders and entrepreneurs
+                            with
+                            nearly five lakh active members and millions of
+                            alumni spread across more than 115 countries. We
+                            are
+                            young active citizens all over the world,
+                            living,
+                            communicating, taking action and creating impact
+                            in
+                            our communities.
+                        </p>
+                        <button
+                            class="bg-yellow-400 text-black px-6 my-8 py-3 rounded-lg font-semibold hover:bg-white transition-colors transform active:scale-95 transition-transform duration-150">
+                            Contact now
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-[#FFFFFF] text-white md:py-16 py-8">
+            <div class="container mx-auto md:px-4">
+                <div class="relative flex item-center justify-center">
+                    <img src="assets/images/footer2.webp" class="img w-full md:rounded-3xl" />
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-black text-white py-4">
+        <div class="container mx-auto px-4 text-center">
+            <p>© Copyright 2021 JCI TIRUPUR LEGENDS. All Rights Reserved</p>
+            <p class="text-sm mt-2">Designed by v0websolutions</p>
+        </div>
+    </footer>
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const navMenu = document.getElementById('nav-menu');
+        const closeIcon = document.getElementById('nav-close');
+        /*const navLink = document.getElementById('nav_link');
+
+        navLink.foreach(link =>
+            link.addEventListener("click", () => {
+                navMenu.classList.add('hidden');
+            })
+        );*/
+
+        closeIcon.addEventListener("click", () => {
+            navMenu.classList.add('hidden');
+        });
+
+        hamburger.addEventListener("click", () => {
+            navMenu.classList.remove('hidden');
+        });
+    </script>
+</body>
+
+</html>
